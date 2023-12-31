@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+Read Me - Instructions for use
+Application Name
+Far Away Travel Planner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Description
+Far Away Travel Planner is a simple web app that helps you keep track of what you need to pack before your trip. You can add items, mark them as packed, and track stats on the status of your packing.
 
-## Available Scripts
+How to use
+Adding Items
 
-In the project directory, you can run:
+On the main page of the app, you'll find a form.
+Select the quantity of the item from the drop-down list.
+Enter the name of the item in the text box.
+Click the "Add" button to add the item to the list.
+Tagging and Deleting Items
 
-### `npm start`
+Each item in the list is displayed with a checkbox, a title, and a "❌" button.
+Click on the checkbox to mark the item as packed or unpacked.
+Click the "❌" button to remove the item from the list.
+Sorting the List
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can sort the list by three criteria: the entry order, the item name, or its packed state.
+Select a criterion from the list in the sorting interface.
+Statistics
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Statistics are displayed at the bottom of the page.
+They show the number of all items, the number of packed items, and the percentage packing level.
+If everything is packed, the message "You got everything! Ready to go".
+Cleaning the List
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Click the "Clear list" button to delete all items from the list.
+Technologies used
+React
+Posting
+Make a fork of this repository.
+Create a branch: git checkout -b my-new-function.
+Commit your changes: git commit -m 'Add my new feature'.
+Push the branch to your fork: git push origin my-n
