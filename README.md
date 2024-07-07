@@ -1,38 +1,42 @@
-Read Me - Instructions for use
-Application Name
-Far Away Travel Planner
+# Far Away Travel Planner
 
-Description
-Far Away Travel Planner is a simple web app that helps you keep track of what you need to pack before your trip. You can add items, mark them as packed, and track stats on the status of your packing.
+## Popis
+Far Away Travel Planner je jednoduchá webová aplikácia, ktorá vám pomáha sledovať, čo potrebujete zabalit pred vašou cestou. 
+Môžete pridávať položky, označovať ich ako zabaleneé alebo nezabaleneé a sledovať štatistiky o stave vašeho balenia.
 
-How to use
-Adding Items
+## Ako Používať
 
-On the main page of the app, you'll find a form.
-Select the quantity of the item from the drop-down list.
-Enter the name of the item in the text box.
-Click the "Add" button to add the item to the list.
-Tagging and Deleting Items
+### Pridávanie Položiek
+1. Na hlavnej stránke aplikácie nájdete formulár.
+2. Vyberte množstvo položky z rozbaľovacieho zoznamu.
+3. Zadajte názov položky do textového poľa.
+4. Kliknite na tlačidlo "Pridať", aby sa položka pridala do zoznamu.
 
-Each item in the list is displayed with a checkbox, a title, and a "❌" button.
-Click on the checkbox to mark the item as packed or unpacked.
-Click the "❌" button to remove the item from the list.
-Sorting the List
+### Označovanie a Mazanie Položiek
+- Každá položka v zozname je zobrazená s kontrolným políčkom, názvom a tlačidlom "❌".
+- Kliknite na kontrolné políčko, aby ste označili položku ako zabalenu alebo nezabalenu.
+- Kliknite na tlačidlo "❌", aby ste položku odstránili zo zoznamu.
 
-You can sort the list by three criteria: the entry order, the item name, or its packed state.
-Select a criterion from the list in the sorting interface.
-Statistics
+### Triedenie Zoznamu
+- Zoznam môžete triediť podľa troch kritérií: poradie vstupu, názov položky alebo jej stav zabalenia.
+- Vyberte kritérium z rozbaľovacieho zoznamu v rozhraní pre triedenie.
 
-Statistics are displayed at the bottom of the page.
-They show the number of all items, the number of packed items, and the percentage packing level.
-If everything is packed, the message "You got everything! Ready to go".
-Cleaning the List
+### Štatistiky
+- Štatistiky sú zobrazené na spodnej časti stránky.
+- Ukazujú počet všetkých položiek, počet zabaleneých položiek a percentuálnu úroveň balenia.
+- Ak je všetko zabaleneé, zobrazí sa správa "Máte všetko! Pripravené na cestu".
 
-Click the "Clear list" button to delete all items from the list.
-Technologies used
-React
-Posting
-Make a fork of this repository.
-Create a branch: git checkout -b my-new-function.
-Commit your changes: git commit -m 'Add my new feature'.
-Push the branch to your fork: git push origin my-n
+### Čistenie Zoznamu
+- Kliknite na tlačidlo "Vyčistiť zoznam", aby ste odstránili všetky položky zo zoznamu.
+
+## Použité Technológie
+- React
+
+## Začnite
+Ak chcete začať používať Far Away Travel Planner, postupujte podľa týchto krokov:
+1. Urobte fork tohto repozitára.
+2. Vytvorte vetvu: `git checkout -b moja-nova-funkcia`.
+3. Commitujte svoje zmeny: `git commit -m 'Pridaj moju novú funkciu'`.
+4. Pushnite vetvu do vášho forku: `git push origin moja-nova-funkcia`.
+
+
